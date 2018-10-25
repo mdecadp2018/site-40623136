@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623136/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623136/blog/feeds/all.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623136/blog/</id><updated>2018-10-12T10:00:00+08:00</updated><entry><title>20181012第五週</title><link href="https://mdecadp2018.github.io/site-40623136/blog/40623136-blog-5.html" rel="alternate"></link><published>2018-10-12T10:00:00+08:00</published><updated>2018-10-12T10:00:00+08:00</updated><author><name>40623136</name></author><id>tag:mdecadp2018.github.io,2018-10-12:/site-40623136/blog/40623136-blog-5.html</id><summary type="html">&lt;p&gt;2018 Fall 看完week的課程&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623136/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623136/blog/feeds/all.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623136/blog/</id><updated>2018-10-17T10:00:00+08:00</updated><entry><title>20181012第六週</title><link href="https://mdecadp2018.github.io/site-40623136/blog/40623136-blog-6.html" rel="alternate"></link><published>2018-10-17T10:00:00+08:00</published><updated>2018-10-17T10:00:00+08:00</updated><author><name>40623136</name></author><id>tag:mdecadp2018.github.io,2018-10-17:/site-40623136/blog/40623136-blog-6.html</id><summary type="html">&lt;p&gt;2018 Fall 看完week的課程&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2018 Fall 看完week的課程&lt;/p&gt;
+
+
+&lt;p&gt;。&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>20181012第五週</title><link href="https://mdecadp2018.github.io/site-40623136/blog/40623136-blog-5.html" rel="alternate"></link><published>2018-10-12T10:00:00+08:00</published><updated>2018-10-12T10:00:00+08:00</updated><author><name>40623136</name></author><id>tag:mdecadp2018.github.io,2018-10-12:/site-40623136/blog/40623136-blog-5.html</id><summary type="html">&lt;p&gt;2018 Fall 看完week的課程&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018 Fall 看完week的課程&lt;/p&gt;
 
 
@@ -19,7 +23,7 @@
 </summary><content type="html">&lt;p&gt;說明如何利用 p37 中的 git 建立個人的 Github Pages 網站，如何管理個人的期中作業網站內容與投影片&lt;/p&gt;
 
 
-&lt;p&gt;下載p37並建立一個新的倉儲&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623136/blog/2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-09-10:/site-40623136/blog/2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
+&lt;p&gt;下載p37並建立一個Github Pages網站並clone網站,須注意要避開.git。這樣就可以開始改版,之後就是git add .和git commit -m "xxxx"並git push上推至遠端,要注意要因為是clone p37 所以它並不知道使用者的身分,所以要在cmd輸入git config --global user.email "xxxxxxx@gm.nfu.edu.tw"和git config --global user.name"xxxxxxx"這樣才能push。如果要開啟近端需在cmd跳到clone的目錄下輸入python wsgi.py,並在瀏覽器輸入https://localhost:8443就可以開啟近端。&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623136/blog/2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-09-10:/site-40623136/blog/2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 
 

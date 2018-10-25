@@ -17,10 +17,10 @@
 <v t="leo.20180115150519.1"><vh>@edit index.html</vh></v>
 <v t="yen.20170108171733.3"><vh>@edit README.md</vh></v>
 <v t="yen.20170108171733.4"><vh>@edit .gitignore</vh></v>
-<v t="leo.20170908162839.1"><vh>沒有 disqus 論壇</vh>
+<v t="leo.20170908162839.1" a="E"><vh>沒有 disqus 論壇</vh>
 <v t="yen.20170108171733.2"><vh>@button local-blog</vh></v>
 </v>
-<v t="leo.20170908162904.1"><vh>有 disqus 論壇</vh>
+<v t="leo.20170908162904.1" a="E"><vh>有 disqus 論壇</vh>
 <v t="leo.20170709224430.1"><vh>@button github-blog</vh></v>
 </v>
 <v t="yen.20170108171733.5"><vh>Pelican 設定</vh>
@@ -31,7 +31,7 @@
 <v t="leo.20170709015940.1"><vh>近端</vh></v>
 <v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
 </v>
-<v t="yen.20170224232341.1" a="E"><vh>編輯 template</vh>
+<v t="yen.20170224232341.1"><vh>編輯 template</vh>
 <v t="leo.20180115093448.1" a="E"><vh>@path theme/attila/templates</vh>
 <v t="leo.20180715212936.1"><vh>@edit article.html</vh></v>
 <v t="leo.20180115093536.1"><vh>@edit base.html</vh></v>
@@ -66,12 +66,12 @@
 </v>
 </v>
 <v t="leo.20170710022054.1"><vh>可以另建節點存放 markdown 目錄下的 md 檔案</vh></v>
-<v t="leo.20170710022041.1"><vh>@path markdown</vh>
-<v t="leo.20180115115910.1"><vh>2018</vh>
+<v t="leo.20170710022041.1" a="E"><vh>@path markdown</vh>
+<v t="leo.20180115115910.1" a="E"><vh>2018</vh>
 <v t="leo.20180423103639.1"><vh>2018 Fall CP 課程</vh>
 <v t="leo.20180423103656.1"><vh>@edit 20180718.md</vh></v>
 </v>
-<v t="leo.20181014183319.1"><vh>0914課程(第一週)</vh>
+<v t="leo.20181014183319.1" a="E"><vh>0914課程(第一週)</vh>
 <v t="leo.20181014183319.2"><vh>@edit 20180914.md</vh></v>
 </v>
 <v t="leo.20181014183337.1"><vh>0921課程(第二週)</vh>
@@ -83,8 +83,11 @@
 <v t="leo.20181005103154.1"><vh>1005課程(第四週)</vh>
 <v t="leo.20181005103154.2"><vh>@edit 20181005.md</vh></v>
 </v>
-<v t="leo.20181014182319.1"><vh>1012課程(第五週)</vh>
+<v t="leo.20181014182319.1" a="E"><vh>1012課程(第五週)</vh>
 <v t="leo.20181014182319.2"><vh>@edit 20181012.md</vh></v>
+</v>
+<v t="leo.20181026011124.1" a="E"><vh>1017課程(第六週)</vh>
+<v t="leo.20181026011124.2"><vh>@edit 20181017.md</vh></v>
 </v>
 </v>
 </v>
@@ -123,6 +126,7 @@ g.es("admin pelican Github 執行完畢")
 <t tx="leo.20181014183319.1"></t>
 <t tx="leo.20181014183334.1"></t>
 <t tx="leo.20181014183337.1"></t>
+<t tx="leo.20181026011124.1"></t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/

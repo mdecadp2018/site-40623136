@@ -21,20 +21,41 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181028175440.1" a="E"><vh>第一週</vh>
+<v t="leo.20181028175440.2"><vh>week1內容</vh></v>
+</v>
+<v t="leo.20181028175441.1" a="E"><vh>第二週</vh>
+<v t="leo.20181028175441.2"><vh>week2內容</vh></v>
+</v>
+<v t="leo.20181028175442.1" a="E"><vh>第三週</vh>
+<v t="leo.20181028175442.2"><vh>week3內容</vh></v>
+</v>
+<v t="leo.20181028175442.3"><vh>第四週</vh>
+<v t="leo.20181028175442.4"><vh>week4內容</vh></v>
+</v>
+<v t="leo.20181028175443.1"><vh>第五週</vh>
+<v t="leo.20181028175443.2"><vh>week5內容</vh></v>
+</v>
+<v t="leo.20181028175520.1" a="E"><vh>第六週</vh>
+<v t="leo.20181028175520.2"><vh>week6內容</vh></v>
+</v>
+<v t="leo.20181028175521.1" a="E"><vh>第七週</vh>
+<v t="leo.20181028175521.2"><vh>week7內容</vh></v>
 </v>
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180827201621.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20180827201621.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
+<v t="leo.20180827201621.18"><vh>導入影片</vh>
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -124,13 +145,14 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">### 虎科大機械設計工程系
+<t tx="leo.20180827201621.10">## 虎科大機械設計工程系
+
 
 &lt;small&gt;
 Created by 40623136 黃子軒
 &lt;/small&gt;
 
-
+[我的網誌](https://mdecadp2018.github.io/site-40623136/blog/index.html)
 
 </t>
 <t tx="leo.20180827201621.11">&lt;section data-markdown&gt;
@@ -323,5 +345,100 @@ make.start()
 
 						
 </t>
+<t tx="leo.20181028175440.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181028175440.2">### Week1
+
+
+* 下載p37
+* 建立一個Github Pages網站
+* clone [2018fall](https://github.com/mdecourse/2018fall)與自己的倉儲並把(除了.git&amp;README.md)資料copy到自己的倉儲資料夾並上推。
+
+
+</t>
+<t tx="leo.20181028175441.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181028175441.2">### Week2
+
+
+* 將github倉儲中的內定分支切換到gh-pages分支,並把新的版本pull下來
+* 學習如何開啟動態與靜態近端</t>
+<t tx="leo.20181028175442.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181028175442.2">### Week3
+
+
+* 練習版本回推與結合</t>
+<t tx="leo.20181028175442.3">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181028175442.4">### Week4
+
+
+* 利用Onshape繪圖
+* 管理Blog與投影片</t>
+<t tx="leo.20181028175443.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181028175443.2">### Week5
+
+</t>
+<t tx="leo.20181028175520.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181028175520.2">### Week6
+
+</t>
+<t tx="leo.20181028175521.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181028175521.2">### Week7
+
+* 更改網路位址:設定→網路和網際網路→乙太網路→變更介面卡選項→右鍵點選→點選IPv4內容→在使用下列的DNS伺服器位置輸入(慣用DNS/其他DNS): 140.130.17./140.130.1.2</t>
 </tnodes>
 </leo_file>

@@ -24,13 +24,13 @@
 <v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181028175440.1" a="E"><vh>第一週</vh>
+<v t="leo.20181028175440.1"><vh>第一週</vh>
 <v t="leo.20181028175440.2"><vh>week1內容</vh></v>
 </v>
-<v t="leo.20181028175441.1" a="E"><vh>第二週</vh>
+<v t="leo.20181028175441.1"><vh>第二週</vh>
 <v t="leo.20181028175441.2"><vh>week2內容</vh></v>
 </v>
-<v t="leo.20181028175442.1" a="E"><vh>第三週</vh>
+<v t="leo.20181028175442.1"><vh>第三週</vh>
 <v t="leo.20181028175442.2"><vh>week3內容</vh></v>
 </v>
 <v t="leo.20181028175442.3"><vh>第四週</vh>
@@ -39,11 +39,14 @@
 <v t="leo.20181028175443.1"><vh>第五週</vh>
 <v t="leo.20181028175443.2"><vh>week5內容</vh></v>
 </v>
-<v t="leo.20181028175520.1" a="E"><vh>第六週</vh>
+<v t="leo.20181028175520.1"><vh>第六週</vh>
 <v t="leo.20181028175520.2"><vh>week6內容</vh></v>
 </v>
-<v t="leo.20181028175521.1" a="E"><vh>第七週</vh>
+<v t="leo.20181028175521.1"><vh>第七週</vh>
 <v t="leo.20181028175521.2"><vh>week7內容</vh></v>
+</v>
+<v t="leo.20181102113208.1" a="E"><vh>第八週</vh>
+<v t="leo.20181102113208.2"><vh>week8內容</vh></v>
 </v>
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -376,7 +379,9 @@ make.start()
 
 
 * 將github倉儲中的內定分支切換到gh-pages分支,並把新的版本pull下來
-* 學習如何開啟動態與靜態近端</t>
+* 學習如何開啟動態與靜態近端
+
+</t>
 <t tx="leo.20181028175442.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -389,7 +394,9 @@ make.start()
 <t tx="leo.20181028175442.2">### Week3
 
 
-* 練習版本回推與結合</t>
+* 練習版本回推與結合
+
+</t>
 <t tx="leo.20181028175442.3">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -403,7 +410,9 @@ make.start()
 
 
 * 利用Onshape繪圖
-* 管理Blog與投影片</t>
+* 管理Blog與投影片
+
+</t>
 <t tx="leo.20181028175443.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -415,7 +424,9 @@ make.start()
 </t>
 <t tx="leo.20181028175443.2">### Week5
 
-</t>
+* 更新git
+* Onshapeweek1 課程到 Onshapeweek2的教學
+* Part Studio可以放入多零件與變數(variable)的使用</t>
 <t tx="leo.20181028175520.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -427,7 +438,8 @@ make.start()
 </t>
 <t tx="leo.20181028175520.2">### Week6
 
-</t>
+* 說明實習課程中, 有關人事時地物等關鍵內容的架構安排
+* 說明管理內容流程升級最新的 CMSimfly倉儲中的 flaskapp.py</t>
 <t tx="leo.20181028175521.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -439,6 +451,22 @@ make.start()
 </t>
 <t tx="leo.20181028175521.2">### Week7
 
-* 更改網路位址:設定→網路和網際網路→乙太網路→變更介面卡選項→右鍵點選→點選IPv4內容→在使用下列的DNS伺服器位置輸入(慣用DNS/其他DNS): 140.130.17./140.130.1.2</t>
+* 更改網路位址:設定→網路和網際網路→乙太網路→變更介面卡選項→右鍵點選→點選IPv4內容→在使用下列的DNS伺服器位置輸入(慣用DNS/其他DNS): 140.130.17./140.130.1.2
+
+</t>
+<t tx="leo.20181102113208.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181102113208.2">### Week8
+
+
+
+</t>
 </tnodes>
 </leo_file>

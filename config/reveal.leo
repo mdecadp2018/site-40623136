@@ -426,7 +426,9 @@ make.start()
 
 * 更新git
 * Onshapeweek1 課程到 Onshapeweek2的教學
-* Part Studio可以放入多零件與變數(variable)的使用</t>
+* Part Studio可以放入多零件與變數(variable)的使用
+
+</t>
 <t tx="leo.20181028175520.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -439,7 +441,9 @@ make.start()
 <t tx="leo.20181028175520.2">### Week6
 
 * 說明實習課程中, 有關人事時地物等關鍵內容的架構安排
-* 說明管理內容流程升級最新的 CMSimfly倉儲中的 flaskapp.py</t>
+* 說明管理內容流程升級最新的 CMSimfly倉儲中的 flaskapp.py
+
+</t>
 <t tx="leo.20181028175521.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -465,8 +469,9 @@ make.start()
 </t>
 <t tx="leo.20181102113208.2">### Week8
 
-
-
+* 統整倉儲
+* 說明什麼是雲端
+* 機電資整合設計專案流程所需的相關套件運用與技術
 </t>
 </tnodes>
 </leo_file>

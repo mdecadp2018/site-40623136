@@ -24,29 +24,33 @@
 <v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181028175440.1"><vh>第一週</vh>
-<v t="leo.20181028175440.2"><vh>week1內容</vh></v>
+<v t="leo.20181028175440.1" a="E"><vh>第十二週</vh>
+<v t="leo.20181028175440.2"><vh>week12內容</vh></v>
 </v>
-<v t="leo.20181028175441.1"><vh>第二週</vh>
-<v t="leo.20181028175441.2"><vh>week2內容</vh></v>
+<v t="leo.20181028175441.1" a="E"><vh>第十三週</vh>
+<v t="leo.20181028175441.2"><vh>week13內容</vh>
+<v t="leo.20190607231036.1"><vh>內文</vh></v>
 </v>
-<v t="leo.20181028175442.1"><vh>第三週</vh>
-<v t="leo.20181028175442.2"><vh>week3內容</vh></v>
+<v t="leo.20190607230921.1" a="E"><vh>起初構思</vh>
+<v t="leo.20190607231138.1"><vh>內文</vh></v>
 </v>
-<v t="leo.20181028175442.3"><vh>第四週</vh>
-<v t="leo.20181028175442.4"><vh>week4內容</vh></v>
 </v>
-<v t="leo.20181028175443.1"><vh>第五週</vh>
-<v t="leo.20181028175443.2"><vh>week5內容</vh></v>
+<v t="leo.20181028175442.1" a="E"><vh>第十四週</vh>
+<v t="leo.20181028175442.2" a="E"><vh>week14內容</vh>
+<v t="leo.20190607232631.1"><vh>內文</vh></v>
 </v>
-<v t="leo.20181028175520.1"><vh>第六週</vh>
-<v t="leo.20181028175520.2"><vh>week6內容</vh></v>
+<v t="leo.20190607232651.1" a="E"><vh>發現問題</vh>
+<v t="leo.20190607232739.1"><vh>內文</vh></v>
 </v>
-<v t="leo.20181028175521.1"><vh>第七週</vh>
-<v t="leo.20181028175521.2"><vh>week7內容</vh></v>
 </v>
-<v t="leo.20181102113208.1" a="E"><vh>第八週</vh>
-<v t="leo.20181102113208.2"><vh>week8內容</vh></v>
+<v t="leo.20181028175442.3" a="E"><vh>第十五週</vh>
+<v t="leo.20181028175442.4"><vh>week15內容</vh></v>
+</v>
+<v t="leo.20181028175443.1" a="E"><vh>第十六週</vh>
+<v t="leo.20181028175443.2"><vh>week16內容</vh></v>
+</v>
+<v t="leo.20181028175520.1" a="E"><vh>第十七週</vh>
+<v t="leo.20181028175520.2"><vh>week17內容</vh></v>
 </v>
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -357,46 +361,37 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181028175440.2">### Week1
+<t tx="leo.20181028175440.2">### Week12
 
 
-* 下載p37
-* 建立一個Github Pages網站
-* clone [2018fall](https://github.com/mdecourse/2018fall)與自己的倉儲並把(除了.git&amp;README.md)資料copy到自己的倉儲資料夾並上推。
-
-
-</t>
-<t tx="leo.20181028175441.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
+* 組內分組,被分配至繪製送球機構
+* 上網調查送球機構</t>
+<t tx="leo.20181028175441.1">&lt;section&gt;
 @others
-    &lt;/script&gt;
 &lt;/section&gt;
 
 
 						
 </t>
-<t tx="leo.20181028175441.2">### Week2
-
-
-* 將github倉儲中的內定分支切換到gh-pages分支,並把新的版本pull下來
-* 學習如何開啟動態與靜態近端
-
-</t>
-<t tx="leo.20181028175442.1">&lt;section data-markdown&gt;
+<t tx="leo.20181028175441.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
+</t>
+<t tx="leo.20181028175442.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
 
 						
 </t>
-<t tx="leo.20181028175442.2">### Week3
-
-
-* 練習版本回推與結合
-
-</t>
+<t tx="leo.20181028175442.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
 <t tx="leo.20181028175442.3">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -406,12 +401,12 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181028175442.4">### Week4
+<t tx="leo.20181028175442.4">### Week15
 
-
-* 利用Onshape繪圖
-* 管理Blog與投影片
-
+* 送球機構零件繪製完成
+* 組裝送球機構零件
+* 使用vrep模擬送球機構
+* 微調零件尺寸
 </t>
 <t tx="leo.20181028175443.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -422,12 +417,11 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181028175443.2">### Week5
+<t tx="leo.20181028175443.2">### Week16
 
-* 更新git
-* Onshapeweek1 課程到 Onshapeweek2的教學
-* Part Studio可以放入多零件與變數(variable)的使用
-
+* 完成vrep送球機構模擬
+* 學習程式
+* 修改程式
 </t>
 <t tx="leo.20181028175520.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -438,40 +432,40 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181028175520.2">### Week6
+<t tx="leo.20181028175520.2">### Week17
 
-* 說明實習課程中, 有關人事時地物等關鍵內容的架構安排
-* 說明管理內容流程升級最新的 CMSimfly倉儲中的 flaskapp.py
+* 製做倉儲與投影片
 
 </t>
-<t tx="leo.20181028175521.1">&lt;section data-markdown&gt;
+<t tx="leo.20190607230921.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
-
-
-						
 </t>
-<t tx="leo.20181028175521.2">### Week7
+<t tx="leo.20190607231036.1">### Week13
 
-* 更改網路位址:設定→網路和網際網路→乙太網路→變更介面卡選項→右鍵點選→點選IPv4內容→在使用下列的DNS伺服器位置輸入(慣用DNS/其他DNS): 140.130.17./140.130.1.2
 
+* 小組討論如何運行送球機構</t>
+<t tx="leo.20190607231138.1">## 起初構思
+
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_7SBlAnfbAa.png"&gt;&lt;/img&gt;
+[Onshape](https://cad.onshape.com/documents/3ac3d3d305074e574ff9d9a5/w/61f53ba0d7b754362886ebaf/e/c001e43f082a448265e00114)
 </t>
-<t tx="leo.20181102113208.1">&lt;section data-markdown&gt;
+<t tx="leo.20190607232631.1">### Week14
+
+
+* 開始繪製送球機構零件
+* 修改送球機構零件尺寸與位置
+</t>
+<t tx="leo.20190607232651.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
-&lt;/section&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20190607232739.1">一開始所想的機構並不能運用在手足球上,因此繪製了新的機構
 
-
-						
-</t>
-<t tx="leo.20181102113208.2">### Week8
-
-* 統整倉儲
-* 說明什麼是雲端
-* 機電資整合設計專案流程所需的相關套件運用與技術
-</t>
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_P8ejVLycHB.png"&gt;&lt;/img&gt;
+[Onshape](https://cad.onshape.com/documents/ebacb04e08b85ff6021efc57/w/db704115cbe56e5300e02567/e/a7811cca10fdb40fe754385b)</t>
 </tnodes>
 </leo_file>

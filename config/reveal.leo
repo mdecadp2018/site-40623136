@@ -24,10 +24,10 @@
 <v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181028175440.1" a="E"><vh>第十二週</vh>
+<v t="leo.20181028175440.1"><vh>第十二週</vh>
 <v t="leo.20181028175440.2"><vh>week12內容</vh></v>
 </v>
-<v t="leo.20181028175441.1" a="E"><vh>第十三週</vh>
+<v t="leo.20181028175441.1"><vh>第十三週</vh>
 <v t="leo.20181028175441.2"><vh>week13內容</vh>
 <v t="leo.20190607231036.1"><vh>內文</vh></v>
 </v>
@@ -36,16 +36,16 @@
 </v>
 </v>
 <v t="leo.20181028175442.1" a="E"><vh>第十四週</vh>
-<v t="leo.20181028175442.2" a="E"><vh>week14內容</vh>
+<v t="leo.20181028175442.2"><vh>week14內容</vh>
 <v t="leo.20190607232631.1"><vh>內文</vh></v>
 </v>
-<v t="leo.20190608001930.1" a="E"><vh>零件</vh>
+<v t="leo.20190608001930.1"><vh>零件</vh>
 <v t="leo.20190608005713.1"><vh>內文</vh></v>
 </v>
-<v t="leo.20190608001926.1" a="E"><vh>零件2</vh>
+<v t="leo.20190608001926.1"><vh>零件2</vh>
 <v t="leo.20190608005738.1"><vh>內文</vh></v>
 </v>
-<v t="leo.20190607232651.1" a="E"><vh>發現問題</vh>
+<v t="leo.20190607232651.1"><vh>發現問題</vh>
 <v t="leo.20190607232739.1"><vh>內文</vh></v>
 </v>
 </v>
@@ -53,22 +53,28 @@
 <v t="leo.20181028175442.4"><vh>week15內容</vh>
 <v t="leo.20190608001825.1"><vh>內文</vh></v>
 </v>
-<v t="leo.20190608014414.1" a="E"><vh>組合圖</vh>
+<v t="leo.20190608033250.1" a="E"><vh>軌道設計</vh>
+<v t="leo.20190608033250.2"><vh>內文</vh></v>
+</v>
+<v t="leo.20190608014414.1"><vh>組合圖</vh>
 <v t="leo.20190608014423.1"><vh>內文</vh></v>
 </v>
-<v t="leo.20190608014407.1" a="E"><vh>Vrep</vh>
+<v t="leo.20190608014407.1"><vh>Vrep</vh>
 <v t="leo.20190608014421.1"><vh>內文</vh></v>
 </v>
-<v t="leo.20190608005305.1" a="E"><vh>問題</vh>
+<v t="leo.20190608005305.1"><vh>問題</vh>
 <v t="leo.20190608005307.1"><vh>內文</vh></v>
 </v>
 <v t="leo.20190608013641.1"><vh>解決</vh>
 <v t="leo.20190608013645.1"><vh>內文</vh></v>
 </v>
 </v>
-<v t="leo.20181028175443.1" a="E"><vh>第十六週</vh>
+<v t="leo.20181028175443.1"><vh>第十六週</vh>
 <v t="leo.20181028175443.2" a="E"><vh>week16內容</vh>
 <v t="leo.20190608004850.1"><vh>內文</vh></v>
+</v>
+<v t="leo.20190608015941.1" a="E"><vh>影片</vh>
+<v t="leo.20190608015953.1"><vh>內文</vh></v>
 </v>
 </v>
 <v t="leo.20181028175520.1" a="E"><vh>自我評分</vh>
@@ -177,13 +183,14 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
 <t tx="leo.20180827201621.10">## 虎科大機械設計工程系
+## 協同產品設計實習期末簡報
 
 
-&lt;small&gt;
+
 Created by 40623136 黃子軒
-&lt;/small&gt;
 
-[我的網誌](https://mdecadp2018.github.io/site-40623136/blog/index.html)
+
+[小組倉儲](https://github.com/mdekmol/cd2019a-task1-2019cda_t1_g6)
 
 </t>
 <t tx="leo.20180827201621.11">&lt;section data-markdown&gt;
@@ -389,7 +396,8 @@ make.start()
 
 
 * 組內分組,被分配至繪製送球機構
-* 上網調查送球機構</t>
+* 上網調查送球機構
+</t>
 <t tx="leo.20181028175441.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -459,6 +467,7 @@ make.start()
 * 小組討論如何運行送球機構</t>
 <t tx="leo.20190607231138.1">## 起初構思
 
+除了這張圖外,一開始也嘗試許多方法來製作送球機構,在此[網站](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g6/content/%E6%AF%8F%E9%80%B1%E9%80%B2%E5%BA%A6%E5%95%8F%E9%A1%8C%E8%A8%8E%E8%AB%96.html)可以看到
 &lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_7SBlAnfbAa.png"&gt;&lt;/img&gt;
 [Onshape](https://cad.onshape.com/documents/3ac3d3d305074e574ff9d9a5/w/61f53ba0d7b754362886ebaf/e/c001e43f082a448265e00114)
 </t>
@@ -472,7 +481,7 @@ make.start()
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20190607232739.1">最後決定的送球機構
+<t tx="leo.20190607232739.1">試過了好幾個機構,但都會被桿子所干涉而無法順利組裝,最後畫出能順利裝上而不會有所干涉的送球機構
 
 &lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_P8ejVLycHB.png"&gt;&lt;/img&gt;
 [Onshape](https://cad.onshape.com/documents/ebacb04e08b85ff6021efc57/w/db704115cbe56e5300e02567/e/a7811cca10fdb40fe754385b)</t>
@@ -481,7 +490,7 @@ make.start()
 * 送球機構零件繪製完成
 * 組裝送球機構零件
 * 使用vrep模擬送球機構
-* 微調零件尺寸</t>
+* 調整零件尺寸</t>
 <t tx="leo.20190608001926.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -496,21 +505,22 @@ make.start()
 
 * 完成vrep送球機構模擬
 * 學習程式
-* 修改程式(人對人)</t>
-<t tx="leo.20190608005003.1">出席率:
-* Github倉儲管理:
-* Onshape協同操作:
-* V-rep模擬:
-* 程式開發:</t>
+* [修改程式(人對人)](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g6/content/%E6%89%8B%E8%B6%B3%E7%90%83%E4%BA%BA%E5%B0%8D%E4%BA%BApython.html)</t>
+<t tx="leo.20190608005003.1">## 自評
+
+* 出席率:18分
+* Github倉儲管理:5分
+* Onshape協同操作:18分
+* V-rep模擬:14分
+* 程式開發:8分</t>
 <t tx="leo.20190608005305.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20190608005307.1">### 問題
-發球孔有加上一個套子在上面,但反而妨礙了送球機構的運行
-
-&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_SJmMQ26XDj.png"&gt;&lt;/img&gt;</t>
+<t tx="leo.20190608005307.1">### 發現問題
+發球孔原本有畫一個蓋子加在上面,但設計不良,妨礙了送球機構的運行    
+</t>
 <t tx="leo.20190608005713.1">### 零件圖
 
 &lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_8KFgdm3PeZ.png" weight="300"height="200"&gt;&lt;/img&gt;
@@ -529,7 +539,7 @@ make.start()
     &lt;/script&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20190608013645.1">### 解決方案
-將蓋子直接畫在球桌上就可以解決
+將蓋子直接畫在球桌邊
 
 &lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_jaqhbCGk6f.png"&gt;&lt;/img&gt;</t>
 <t tx="leo.20190608014407.1">&lt;section data-markdown&gt;
@@ -550,5 +560,23 @@ make.start()
 <t tx="leo.20190608014423.1">### [組合圖](https://cad.onshape.com/documents/ebacb04e08b85ff6021efc57/w/db704115cbe56e5300e02567/e/f4cc95ce9558466b585bed7e)
 
 &lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_5f6hcxyKFq.png"&gt;&lt;/img&gt;</t>
+<t tx="leo.20190608015941.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20190608015953.1">### V-rep程式模擬
+
+&lt;iframe width="853" height="480" src="https://www.youtube.com/embed/ADsDVqyI62s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190608033250.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20190608033250.2">### 軌道與送球機構設計
+
+由一個有角度的集球盤會將球送進軌道,再由軌道送進送球機構,送球機構由逆時針方向旋轉將球往上帶,並由缺口掉入軌道,最後進到發球口回到球場
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_aGM0EpZSsK.png"weight="300"height="200"&gt;&lt;/img&gt;
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_eW7IQcpKej.png"weight="300"height="200"&gt;&lt;/img&gt;</t>
 </tnodes>
 </leo_file>

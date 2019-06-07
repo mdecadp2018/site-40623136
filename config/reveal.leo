@@ -39,18 +39,42 @@
 <v t="leo.20181028175442.2" a="E"><vh>week14內容</vh>
 <v t="leo.20190607232631.1"><vh>內文</vh></v>
 </v>
+<v t="leo.20190608001930.1" a="E"><vh>零件</vh>
+<v t="leo.20190608005713.1"><vh>內文</vh></v>
+</v>
+<v t="leo.20190608001926.1" a="E"><vh>零件2</vh>
+<v t="leo.20190608005738.1"><vh>內文</vh></v>
+</v>
 <v t="leo.20190607232651.1" a="E"><vh>發現問題</vh>
 <v t="leo.20190607232739.1"><vh>內文</vh></v>
 </v>
 </v>
 <v t="leo.20181028175442.3" a="E"><vh>第十五週</vh>
-<v t="leo.20181028175442.4"><vh>week15內容</vh></v>
+<v t="leo.20181028175442.4"><vh>week15內容</vh>
+<v t="leo.20190608001825.1"><vh>內文</vh></v>
+</v>
+<v t="leo.20190608014414.1" a="E"><vh>組合圖</vh>
+<v t="leo.20190608014423.1"><vh>內文</vh></v>
+</v>
+<v t="leo.20190608014407.1" a="E"><vh>Vrep</vh>
+<v t="leo.20190608014421.1"><vh>內文</vh></v>
+</v>
+<v t="leo.20190608005305.1" a="E"><vh>問題</vh>
+<v t="leo.20190608005307.1"><vh>內文</vh></v>
+</v>
+<v t="leo.20190608013641.1"><vh>解決</vh>
+<v t="leo.20190608013645.1"><vh>內文</vh></v>
+</v>
 </v>
 <v t="leo.20181028175443.1" a="E"><vh>第十六週</vh>
-<v t="leo.20181028175443.2"><vh>week16內容</vh></v>
+<v t="leo.20181028175443.2" a="E"><vh>week16內容</vh>
+<v t="leo.20190608004850.1"><vh>內文</vh></v>
 </v>
-<v t="leo.20181028175520.1" a="E"><vh>第十七週</vh>
-<v t="leo.20181028175520.2"><vh>week17內容</vh></v>
+</v>
+<v t="leo.20181028175520.1" a="E"><vh>自我評分</vh>
+<v t="leo.20181028175520.2" a="E"><vh>內文</vh>
+<v t="leo.20190608005003.1"><vh>40623136</vh></v>
+</v>
 </v>
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -392,51 +416,37 @@ make.start()
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20181028175442.3">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
+<t tx="leo.20181028175442.3">&lt;section&gt;
 @others
-    &lt;/script&gt;
 &lt;/section&gt;
 
 
 						
 </t>
-<t tx="leo.20181028175442.4">### Week15
-
-* 送球機構零件繪製完成
-* 組裝送球機構零件
-* 使用vrep模擬送球機構
-* 微調零件尺寸
-</t>
-<t tx="leo.20181028175443.1">&lt;section data-markdown&gt;
+<t tx="leo.20181028175442.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
-
-						
 </t>
-<t tx="leo.20181028175443.2">### Week16
-
-* 完成vrep送球機構模擬
-* 學習程式
-* 修改程式
-</t>
-<t tx="leo.20181028175520.1">&lt;section data-markdown&gt;
+<t tx="leo.20181028175443.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20181028175443.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
-
-
-						
 </t>
-<t tx="leo.20181028175520.2">### Week17
-
-* 製做倉儲與投影片
-
-</t>
+<t tx="leo.20181028175520.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20181028175520.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
 <t tx="leo.20190607230921.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -455,17 +465,90 @@ make.start()
 <t tx="leo.20190607232631.1">### Week14
 
 
-* 開始繪製送球機構零件
-* 修改送球機構零件尺寸與位置
+* 繪製送球機構零件
 </t>
 <t tx="leo.20190607232651.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20190607232739.1">一開始所想的機構並不能運用在手足球上,因此繪製了新的機構
+<t tx="leo.20190607232739.1">最後決定的送球機構
 
 &lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_P8ejVLycHB.png"&gt;&lt;/img&gt;
 [Onshape](https://cad.onshape.com/documents/ebacb04e08b85ff6021efc57/w/db704115cbe56e5300e02567/e/a7811cca10fdb40fe754385b)</t>
+<t tx="leo.20190608001825.1">### Week15
+
+* 送球機構零件繪製完成
+* 組裝送球機構零件
+* 使用vrep模擬送球機構
+* 微調零件尺寸</t>
+<t tx="leo.20190608001926.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20190608001930.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20190608004850.1">### Week16
+
+* 完成vrep送球機構模擬
+* 學習程式
+* 修改程式(人對人)</t>
+<t tx="leo.20190608005003.1">出席率:
+* Github倉儲管理:
+* Onshape協同操作:
+* V-rep模擬:
+* 程式開發:</t>
+<t tx="leo.20190608005305.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20190608005307.1">### 問題
+發球孔有加上一個套子在上面,但反而妨礙了送球機構的運行
+
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_SJmMQ26XDj.png"&gt;&lt;/img&gt;</t>
+<t tx="leo.20190608005713.1">### 零件圖
+
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_8KFgdm3PeZ.png" weight="300"height="200"&gt;&lt;/img&gt;
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_NR4Ueh5q2K.png"weight="300"height="200"&gt;&lt;/img&gt;
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_Nlj3tDg0qJ.png"weight="300"height="200"&gt;&lt;/img&gt;
+
+
+</t>
+<t tx="leo.20190608005738.1">### 零件圖
+
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_vSIQUglbnt.png"weight="300"height="200"&gt;&lt;/img&gt;
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_eoncglqQuG.png"weight="300"height="200"&gt;&lt;/img&gt;</t>
+<t tx="leo.20190608013641.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20190608013645.1">### 解決方案
+將蓋子直接畫在球桌上就可以解決
+
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_jaqhbCGk6f.png"&gt;&lt;/img&gt;</t>
+<t tx="leo.20190608014407.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20190608014414.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20190608014421.1">### V-rep模擬
+
+&lt;iframe width="843" height="441" src="https://www.youtube.com/embed/xQ_o4OrMyrE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20190608014423.1">### [組合圖](https://cad.onshape.com/documents/ebacb04e08b85ff6021efc57/w/db704115cbe56e5300e02567/e/f4cc95ce9558466b585bed7e)
+
+&lt;img src="https://raw.githubusercontent.com/mdecadp2018/site-40623136/gh-pages/images/chrome_5f6hcxyKFq.png"&gt;&lt;/img&gt;</t>
 </tnodes>
 </leo_file>

@@ -73,26 +73,24 @@ import keyboard
 vrep.simxFinish(-1)
   
 clientID = vrep.simxStart('127.0.0.1', 19997, True, True, 5000, 5)
-#將python匯至vrep
+#將python匯入vrep
 KickBallV = 360  
-#定義旋轉軸
 n=1
 U_KickBallVel = (math.pi/180)*KickBallV
 D_KickBallVel = -(math.pi/180)*KickBallV
-#使用數學模組
+#加入旋轉軸
 if clientID!= -1:
     print("Connected to remote server")
 else:
     print('Connection not successful')
     sys.exit('Could not connect')
-    #將python匯至vrep
-
+#將python匯入vrep
 errorCode,Sphere_handle=vrep.simxGetObjectHandle(clientID,'Sphere',vrep.simx_opmode_oneshot_wait)
 errorCode,lmov_handle=vrep.simxGetObjectHandle(clientID,'lmov', vrep.simx_opmode_oneshot_wait)
 errorCode,rmov_handle=vrep.simxGetObjectHandle(clientID,'rmov',vrep.simx_opmode_oneshot_wait)
 errorCode,lrev_handle=vrep.simxGetObjectHandle(clientID,'lrev',vrep.simx_opmode_oneshot_wait)
 errorCode,rrev_handle=vrep.simxGetObjectHandle(clientID,'rrev',vrep.simx_opmode_oneshot_wait)
-#python語法 將物建匯入
+#python語法 指定物件
 
 vrep.simxSetJointTargetVelocity(clientID,lmov_handle,0,vrep.simx_opmode_oneshot_wait)
 vrep.simxSetJointTargetVelocity(clientID,rmov_handle,0,vrep.simx_opmode_oneshot_wait)
@@ -111,9 +109,9 @@ while True:
                 vrep.simxSetJointTargetVelocity(clientID,lmov_handle,-0.5,vrep.simx_opmode_oneshot_wait)
             elif keyboard.is_pressed('d'):  
                 vrep.simxSetJointTargetVelocity(clientID,lmov_handle,0.5,vrep.simx_opmode_oneshot_wait)
+                #使用鍵盤的w.a.s.d操控
             else:
                 vrep.simxSetJointTargetVelocity(clientID,lmov_handle,0,vrep.simx_opmode_oneshot_wait)
-            #使用按鍵w,a,s,d操控球員左
             if keyboard.is_pressed('8'):  
                 vrep.simxSetJointTargetVelocity(clientID,rrev_handle,U_KickBallVel ,vrep.simx_opmode_oneshot_wait)
             elif keyboard.is_pressed('5'):  
@@ -122,9 +120,9 @@ while True:
                 vrep.simxSetJointTargetVelocity(clientID,rmov_handle,-0.5,vrep.simx_opmode_oneshot_wait)
             elif keyboard.is_pressed('6'):  
                 vrep.simxSetJointTargetVelocity(clientID,rmov_handle,0.5,vrep.simx_opmode_oneshot_wait)
+                #使用鍵盤的8,4,5,6操控
             else:
                  vrep.simxSetJointTargetVelocity(clientID,rmov_handle,0,vrep.simx_opmode_oneshot_wait)   
-            #使用按鍵8,4,5,6操控球員右
     except:
             break</pre>
 <p></p><br />V-rep << <a href='V-rep.html'>Previous</a> </section></div></body></html>

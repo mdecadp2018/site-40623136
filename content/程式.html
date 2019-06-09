@@ -62,6 +62,69 @@ $(function(){
 </ul>
 </confmenu></header>
 <div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='期末.html'>期末</a><ul><li><a href='Onshape.html'>Onshape</a><li><a href='V-rep.html'>V-rep</a><li><a href='程式.html'>程式</a></li></ul></nav><section>V-rep << <a href='V-rep.html'>Previous</a> <br /><h1>程式</h1>
-<p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/<g class="gr_ gr_45 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="45" data-gr-id="45">pelican</g>.<g class="gr_ gr_51 gr-alert gr_gramm gr_inline_cards gr_run_anim Style multiReplace" id="51" data-gr-id="51">leo&nbsp;</g></p>
-<p><g class="gr_ gr_51 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Style multiReplace" id="51" data-gr-id="51">各分組必須自行更改</g>&nbsp;@edit <g class="gr_ gr_47 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" id="47" data-gr-id="47">pelicanconf</g>.<g class="gr_ gr_46 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation only-ins replaceWithoutSep" id="46" data-gr-id="46">py</g> 中的 AUTHOR 與 SITENAME</p>
-<p>更改 @edit <g class="gr_ gr_49 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" id="49" data-gr-id="49">publishconf</g>.py 中的 SITEURL</p><br />V-rep << <a href='V-rep.html'>Previous</a> </section></div></body></html>
+<p>人對人對打</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import vrep
+import sys, math
+import keyboard
+# child threaded script: 
+# 內建使用 port 19997 若要加入其他 port, 在  serve 端程式納入
+#simExtRemoteApiStart(19999)
+  
+vrep.simxFinish(-1)
+  
+clientID = vrep.simxStart('127.0.0.1', 19997, True, True, 5000, 5)
+#將python匯至vrep
+KickBallV = 360  
+#定義旋轉軸
+n=1
+U_KickBallVel = (math.pi/180)*KickBallV
+D_KickBallVel = -(math.pi/180)*KickBallV
+#使用數學模組
+if clientID!= -1:
+    print("Connected to remote server")
+else:
+    print('Connection not successful')
+    sys.exit('Could not connect')
+    #將python匯至vrep
+
+errorCode,Sphere_handle=vrep.simxGetObjectHandle(clientID,'Sphere',vrep.simx_opmode_oneshot_wait)
+errorCode,lmov_handle=vrep.simxGetObjectHandle(clientID,'lmov', vrep.simx_opmode_oneshot_wait)
+errorCode,rmov_handle=vrep.simxGetObjectHandle(clientID,'rmov',vrep.simx_opmode_oneshot_wait)
+errorCode,lrev_handle=vrep.simxGetObjectHandle(clientID,'lrev',vrep.simx_opmode_oneshot_wait)
+errorCode,rrev_handle=vrep.simxGetObjectHandle(clientID,'rrev',vrep.simx_opmode_oneshot_wait)
+#python語法 將物建匯入
+
+vrep.simxSetJointTargetVelocity(clientID,lmov_handle,0,vrep.simx_opmode_oneshot_wait)
+vrep.simxSetJointTargetVelocity(clientID,rmov_handle,0,vrep.simx_opmode_oneshot_wait)
+vrep.simxSetJointTargetVelocity(clientID,lrev_handle,0,vrep.simx_opmode_oneshot_wait)
+vrep.simxSetJointTargetVelocity(clientID,rrev_handle,0,vrep.simx_opmode_oneshot_wait)
+
+vrep.simxStartSimulation(clientID,vrep.simx_opmode_oneshot_wait)
+#vrep.simxSetJointTargetVelocity(clientID,P1_handle,5,vrep.simx_opmode_oneshot_wait)
+while True:
+    try:
+            if keyboard.is_pressed('s'): 
+                vrep.simxSetJointTargetVelocity(clientID,lrev_handle,U_KickBallVel ,vrep.simx_opmode_oneshot_wait)
+            elif keyboard.is_pressed('w'):  
+                vrep.simxSetJointTargetVelocity(clientID,lrev_handle,D_KickBallVel ,vrep.simx_opmode_oneshot_wait)
+            if keyboard.is_pressed('a'):  
+                vrep.simxSetJointTargetVelocity(clientID,lmov_handle,-0.5,vrep.simx_opmode_oneshot_wait)
+            elif keyboard.is_pressed('d'):  
+                vrep.simxSetJointTargetVelocity(clientID,lmov_handle,0.5,vrep.simx_opmode_oneshot_wait)
+            else:
+                vrep.simxSetJointTargetVelocity(clientID,lmov_handle,0,vrep.simx_opmode_oneshot_wait)
+            #使用按鍵w,a,s,d操控球員左
+            if keyboard.is_pressed('8'):  
+                vrep.simxSetJointTargetVelocity(clientID,rrev_handle,U_KickBallVel ,vrep.simx_opmode_oneshot_wait)
+            elif keyboard.is_pressed('5'):  
+                vrep.simxSetJointTargetVelocity(clientID,rrev_handle,D_KickBallVel ,vrep.simx_opmode_oneshot_wait)
+            if keyboard.is_pressed('4'):  
+                vrep.simxSetJointTargetVelocity(clientID,rmov_handle,-0.5,vrep.simx_opmode_oneshot_wait)
+            elif keyboard.is_pressed('6'):  
+                vrep.simxSetJointTargetVelocity(clientID,rmov_handle,0.5,vrep.simx_opmode_oneshot_wait)
+            else:
+                 vrep.simxSetJointTargetVelocity(clientID,rmov_handle,0,vrep.simx_opmode_oneshot_wait)   
+            #使用按鍵8,4,5,6操控球員右
+    except:
+            break</pre>
+<p></p><br />V-rep << <a href='V-rep.html'>Previous</a> </section></div></body></html>

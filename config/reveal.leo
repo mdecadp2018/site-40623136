@@ -78,7 +78,7 @@
 </v>
 </v>
 <v t="leo.20181028175520.1" a="E"><vh>自我評分</vh>
-<v t="leo.20181028175520.2"><vh>內文</vh>
+<v t="leo.20181028175520.2" a="E"><vh>內文</vh>
 <v t="leo.20190608005003.1"><vh>40623136</vh></v>
 </v>
 </v>
@@ -539,7 +539,7 @@ make.start()
 * Onshape協同操作:18分
 * V-rep模擬:14分
 * 程式開發:8分
-總分:63
+* 總分:63
 </t>
 <t tx="leo.20190608005305.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
